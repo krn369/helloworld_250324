@@ -11,9 +11,9 @@ public class App {
 		int Position;
 		int N;
 		String Resultat;
-		double NbPrecedent;
-		double NbCourant;
-		double NbSuivant;
+		long NbPrecedent;
+		long NbCourant;
+		long NbSuivant;
 
 		System.out.println("Suite de Fibonacci. Combien de nombre de la suite souhaitez-vous afficher ? ");
 		N = sc.nextInt();
